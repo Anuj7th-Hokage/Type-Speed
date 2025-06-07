@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed Test</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Typing Speed Test</h1>
+        
+        <div class="typing-box">
+            <input type="text" class="input-field" autofocus>
+            <p></p>
+        </div>
+
+        <div class="content">
+            <ul class="result-details">
+                <li class="time">
+                    <i class='bx bxs-time-five'></i>
+                    <div>
+                        <p>Time Left:</p>
+                        <span><b>60</b>s</span>
+                    </div>
+                </li>
+                <li class="mistake">
+                    <i class='bx bxs-x-circle'></i>
+                    <div>
+                        <p>Mistakes:</p>
+                        <span>0</span>
+                    </div>
+                </li>
+                <li class="wpm">
+                    <i class='bx bxs-keyboard'></i>
+                    <div>
+                        <p>WPM:</p>
+                        <span>0</span>
+                    </div>
+                </li>
+                <li class="cpm">
+                    <i class='bx bxs-tachometer'></i>
+                    <div>
+                        <p>CPM:</p>
+                        <span>0</span>
+                    </div>
+                </li>
+            </ul>
+            <button class="btn">Try Again</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
